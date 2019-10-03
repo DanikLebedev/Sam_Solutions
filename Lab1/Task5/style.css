@@ -1,0 +1,43 @@
+
+.wrapper {
+    border: 5px dashed red;
+    background: yellow;
+    padding: 5px 10px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 60px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    margin: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.subtitle {
+    font-size: 25px;
+}
+
+.description {
+    width: 280px;
+    margin-top: 10px;
+}
+
+.reward {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}

@@ -1,0 +1,33 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: red;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid grey;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    margin: 20px;
+
+}
+
+.rhombus {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: skew(50deg,-50deg);
+    margin: 80px;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

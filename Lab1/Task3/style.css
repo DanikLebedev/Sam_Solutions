@@ -1,0 +1,22 @@
+td {
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+}
+
+.second_table tr:nth-child(2n) {
+    background: grey;
+}
+
+.fixed-columns {
+    table-layout: fixed;
+}
+
+
+.scroll {
+    overflow: scroll;
+    width: 400px;
+    margin: auto;
+}

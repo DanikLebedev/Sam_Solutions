@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.comics_body {
+     padding: 5px;
+     background: skyblue;
+
+ }
+
+ .title {
+    font-style: italic;
+ }
+
+ .comics_wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+
+
+ }
+
+ .comics_page {
+     background: url("1557841362_krasivye-foto_xaxa-net.ru-38.jpg") center / cover;
+     position: relative;
+     width: 300px;
+     height: 300px;
+     margin: 10px;
+ }
+
+ .comics_description {
+     background: lightgray;
+     color: #000000;
+     padding: 10px;
+     border: 2px solid black;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }

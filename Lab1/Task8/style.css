@@ -1,0 +1,24 @@
+.wrapper_list {
+    display: flex;
+}
+
+.wrapper {
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centre {
+    background: #000;
+    width: 150px;
+    height: 150px;
+
+}

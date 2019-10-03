@@ -1,0 +1,25 @@
+p {
+    padding: 10px;
+    color: darkgray;
+    text-indent: 10px;
+    font-size: 18px;
+
+}
+
+p:first-child {
+    color: pink;
+}
+
+p:nth-child(2n) {
+    font-variant: small-caps;
+    
+}
+
+P:nth-child(2) {
+    border: 5px solid blueviolet;
+}
+
+p:last-child {
+    font-style: italic;
+}
+
