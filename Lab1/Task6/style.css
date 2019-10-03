@@ -16,9 +16,6 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
-
-
-
  }
 
  .comics_page {
@@ -38,3 +35,18 @@
      bottom: 0;
      left: 0;
  }
+
+ .comics_page-second {
+     width: 100%;
+ }
+
+ .comics_page-second {
+     display: inline-block;
+
+     background: url("1557841362_krasivye-foto_xaxa-net.ru-38.jpg") center / cover;
+     position: relative;
+     width: 300px;
+     height: 200px;
+     margin: 10px;
+ }
+
