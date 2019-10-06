@@ -1,7 +1,14 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    --text-color: #3b3b3b3;
+    --dark-theme: #ffffff;
+    --bg-header: #2F4B6E;
+
 }
 
 .container {
@@ -12,7 +19,7 @@
 /*start header*/
 
 header {
-    background: #2F4B6E;
+    background: var(--bg-header);
     padding: 30px 0 30px 0;
     color: #fff;
 }
@@ -69,7 +76,7 @@ header {
 /*start about and certification*/
 
 section {
-    color: #3B3B3B;
+    color: var(--text-color);
 }
 
 .top10 {
@@ -373,4 +380,58 @@ ul > li:before{
 
 }
 
+
+
+.main-wrapper {
+    transition: all 0.3s;
+}
+
+.dark-layout:checked ~ .main-wrapper {
+    background: #000000;
+    color: var(--dark-theme);
+}
+
+.light-layout:checked ~ .main-wrapper {
+    background: #eaeaea;
+    color: #000000;
+}
+
+input[type="radio"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+.layout-buttons {
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 0.875em;
+    cursor: pointer;
+    transition: .2s ease;
+    background: #ffffff;
+}
+
+.layout-buttons:hover {
+    background: transparent;
+}
+
+
+.settings-box-element_light {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.settings-box-element_dark {
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+}
 
