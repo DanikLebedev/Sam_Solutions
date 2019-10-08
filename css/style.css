@@ -176,8 +176,11 @@ section {
 /***------------------------------***/
 
 .work_and_background-wrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr;
     justify-content: space-around;
+    align-items: center;
 }
 
 ul{
@@ -220,12 +223,8 @@ ul > li:before{
     background: #1C88F3;
 }
 
-.work {
-    width: 40%;
-}
 
 .background {
-    width: 40%;
     margin-top: 45px;
 }
 
