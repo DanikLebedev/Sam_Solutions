@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676e58af-f771-4053-b983-46a511973711" name="Default Changelist" comment="" />
+    <list default="true" id="676e58af-f771-4053-b983-46a511973711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Lab1/Task8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Task8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Task8/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Task8/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,7 +15,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab1/Task8/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab1/Task8/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,10 +59,12 @@
         <option value="$PROJECT_DIR$/Task5/style.css" />
         <option value="$PROJECT_DIR$/Task6/style.css" />
         <option value="$PROJECT_DIR$/Task6/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/Task8/index.html" />
+        <option value="$PROJECT_DIR$/Lab1/Task8/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -50,47 +77,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Sam_Solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam_Solutions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task1" type="462c0819:PsiDirectoryNode" />
+              <item name="Sam_Solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam_Solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Task7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sam solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sam solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Sam_Solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam_Solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
               <item name="Task8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -101,6 +99,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Angular2Html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -135,14 +134,16 @@
       <updated>1570033656537</updated>
       <workItem from="1570033660122" duration="6000" />
       <workItem from="1570033691796" duration="8713000" />
+      <workItem from="1570557871471" duration="2770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8719000" />
+    <option name="totallyTimeSpent" value="11489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -186,121 +187,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task8/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task7/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task7/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task5/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task2/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task4/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#col#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task6/style.css">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+    <entry file="file://$PROJECT_DIR$/Task8/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task8/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task2/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task4/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task7/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task7/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task5/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task5/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task1/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task1/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task2/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task3/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task4/style.css" />
+    <entry file="file://$PROJECT_DIR$/Task3/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task6/index.html" />
+    <entry file="file://$PROJECT_DIR$/Task6/style.css" />
+    <entry file="file://$PROJECT_DIR$/Lab1/Task8/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/Task8/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
