@@ -73,6 +73,7 @@ header {
     margin-bottom: 8px;
     transition:.5s ease;
     cursor: pointer;
+    width: 200px;
 }
 
 .header__contacts_item img {
@@ -320,8 +321,14 @@ ul > li:before{
 }
 
 .light-layout:checked ~ .main-wrapper {
-    background: #eaeaea;
+    background: #ffffff;
     color: #000000;
+}
+.light-layout:checked + label {
+    border-radius: 20px;
+}
+.dark-layout:checked + label {
+    border-radius: 20px;
 }
 
 input[type="radio"] {
@@ -342,6 +349,7 @@ input[type="radio"] {
     cursor: pointer;
     transition: .2s ease;
     background: #ffffff;
+    z-index: 99;
 }
 
 .layout-buttons:hover {
@@ -418,6 +426,80 @@ input[type="radio"] {
     }
 }
 
+/*Language switcher*/
+
+.ru {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -10;
+    transition: all .6s ease;
+}
+
+
+.settings-box-element_ru {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.settings-box-element_en {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 70px;
+}
+
+.lang-switchers {
+    display: block;
+    width: 50px;
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 0.875em;
+    cursor: pointer;
+    transition: .2s ease;
+    background: #ffffff;
+    z-index: 99;
+}
+
+.lang-switchers:hover {
+   transform: translateY(10px);
+}
+
+.russian:checked ~ .ru {
+    opacity: 1;
+    z-index: 5;
+}
+
+.russian:checked ~ .main-wrapper {
+    opacity: 0;
+}
+
+.russian:checked + label {
+    border-radius: 20px;
+}
+
+.en:checked + label {
+    border-radius: 20px;
+}
+
+.dark-layout:checked ~ .ru {
+    background: #000000;
+    color: var(--dark-theme);
+}
+
+.dark-layout:checked ~ .ru header {
+    background: #000000;
+}
+
+.light-layout:checked ~ .ru {
+    background: #ffffff;
+    color: #000000;
+}
 
 /*media*/
 
@@ -425,6 +507,15 @@ input[type="radio"] {
 @media (max-width: 1024px) {
     .layout-buttons {
         width: 80px;
+    }
+    .settings-box-element_ru {
+        top: 10px;
+        left: 45%;
+    }
+
+    .settings-box-element_en {
+        top: 10px;
+        left: 50%;
     }
 }
 
@@ -436,6 +527,17 @@ input[type="radio"] {
 }
 
 @media (max-width: 640px ) {
+
+    .settings-box-element_ru {
+        top: 10px;
+        left: 10px;
+    }
+
+    .settings-box-element_en {
+        top: 65px;
+        left: 10px;
+    }
+
     .header__title {
         margin-right: 0;
     }

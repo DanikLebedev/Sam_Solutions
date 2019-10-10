@@ -12,10 +12,18 @@
 </head>
 
 <body>
+<!--theme switchers-->
 <input id="light-layout" class="light-layout" type="radio" name="layout" checked>
 <label for="light-layout" class="layout-buttons settings-box-element_light">Light</label>
 <input id="dark-layout" class="dark-layout" type="radio" name="layout">
 <label for="dark-layout" class="layout-buttons settings-box-element_dark">Dark</label>
+<!------->
+<!--Language switcher-->
+<input id="russian" class="russian" type="radio" name="lang" >
+<label for="russian" class="lang-switchers settings-box-element_ru">Ru</label>
+<input id="en" class="en" type="radio" name="lang" checked>
+<label for="en" class="lang-switchers settings-box-element_en">En</label>
+
    <div class="main-wrapper">
        <header>
            <div class="container">
@@ -177,6 +185,167 @@
            </div>
        </section>
    </div>
+   <div class="ru">
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <div class="header__title">
+                    <div class="header__img"></div>
+                    <div class="header__title_wrapper">
+                        <h1 class="header__title_name">Лебедев Даниил</h1>
+                        <p class="header__title_subtitle">Front-end разработчик</p>
+                    </div>
+                </div>
+                <div class="header__contacts">
+                    <div class="header__contacts_item">
+                        <img src="img/feather%20mail.svg" alt="">
+                        <p>towfiqpiash@gmail.com</p>
+                    </div>
+                    <div class="header__contacts_item">
+                        <img src="img/feather%20phone.svg" alt="">
+                        <p>01722486102</p>
+                    </div>
+                    <div class="header__contacts_item">
+                        <img src="img/feather%20map%20pin.svg" alt="">
+                        <p>Минск, Беларусь</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about_and_certification">
+        <div class="container">
+            <div class="about_and_certification-wrapper">
+                <div class="about">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Обо</span> мне</p>
+                    </div>
+                    <p class="about__description">
+                        Люблю программирование и все , что с ним связано! Решаю проблемы нестандартными путями, быстро учусь новому и использую полученные знания на практике
+                    </p>
+                </div>
+                <div class="certification">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Сертификаты</span></p>
+                    </div>
+                    <img class="certification_img" src="img/idf-logo-full-texttry-0.svg" alt="">
+                    <p class="certification__description">Курс JavasScript Fundamentals by Sam_Solutions Курс JavasScript Fundamentals by Sam_Solutions Курс JavasScript Fundamentals by Sam_Solutions<span class="top10">Top 10%</span></p>
+                    <p class="certification__link">https://www.interaction-design.org/ towfiqpiash/certificate/course/PdrndMQB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work_and_background">
+        <div class="container">
+            <div class="work_and_background-wrapper">
+                <div class="work">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Опыт</span> Работы</p>
+                    </div>
+                    <ul class="work__list">
+                        <li><p class="list__title"><span>Front-end Разработчик</span> @Ajkerdeal</p>
+                            <p class="list__description">Октябрь 2018 -настоящее время</p>
+                            <p class="list__description">Разработка SPA, сайтов различной сложности с использованием React,Vue и других фреймоворков</p>
+                        </li>
+                        <li class="grey">
+                            <p class="list__title"><span>QA-специалист</span> @Beshto</p>
+                            <p class="list__description">Сентябрь 2014 - настоящее время</p>
+                            <p class="list__description">Тестирование различных продуктов компании </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="background">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Образование</span></p>
+                    </div>
+                    <ul class="background__list">
+                        <li><p class="list__title"><span>БНТУ</span> (2016)</p>
+                            <p class="list__description">Строительный факультет</p>
+                            <p class="list__description_subtitle">Средний балл: 6.03</p>
+                        </li>
+                        <li>
+                            <p class="list__title"><span>МГГУОР</span>(2014)</p>
+                            <p class="list__description">Плавание</p>
+                            <p class="list__description_subtitle">Средний балл: 8.00</p>
+                        </li>
+                        <li>
+                            <p class="list__title"><span>Школа</span> (2006)</p>
+                            <p class="list__description">Школа</p>
+                            <p class="list__description_subtitle">Средний балл: 8.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="core_and_tools">
+        <div class="container">
+            <div class="core_and_tools-wrapper">
+                <div class="core">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Мои</span> Навыки</p>
+                    </div>
+                    <p class="core__description">
+                        Верстка сайтов, интерфейсов и всего, что можно сверстать. Написание скриптов, создание плагинов
+                        <br>
+                        <br>
+                        HTML5/CSS3, JavaScript, jQuery, Bootstrap, MaterializeCSS, GitHub, Icon Design, Typography
+                    </p>
+                </div>
+                <div class="tools">
+                    <div class="about__title titles">
+                        <div class="icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <p class="about__title__p "><span>Стек</span> Технологий</p>
+                    </div>
+                    <p class="tools__description">Photoshop, Illustrator, Protopie, <span>Adobe XD</span>, Zeplin, After Effects (начальный уровень), Invision Studio, Figma, Blender (начальный уровень),</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="gallery__item">
+                </div>
+                <div class="gallery__item">
+                </div>
+                <div class="gallery__item">
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery__item">
+                </div>
+                <div class="gallery__item">
+                </div>
+                <div class="gallery__item">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 </body>
 
 </html>
