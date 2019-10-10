@@ -360,105 +360,11 @@ ul > li:before{
     }
 }
 
-
-/*media*/
-
-
-@media (max-width: 1024px) {
-    .container {
-        max-width: 800px;
-    }
-
-    .layout-buttons {
-        width: 80px;
-    }
-
-
-
-
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 90%;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-}
-
-@media (max-width: 640px ) {
-    .container {
-        width: 100%;
-    }
-    .header__title {
-        margin-right: 0;
-    }
-
-    .wrapper {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .work_and_background-wrapper {
-        grid-template-columns: 40%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about_and_certification-wrapper {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .core_and_tools-wrapper {
-        flex-direction: column;
-    }
-
-    .about_and_certification {
-        padding: 10px 0 23px 0;
-    }
-
-    .about__title {
-        margin-top: 30px;
-
-    }
-    .about__title__p {
-         font-size: 16px;
-    }
-
-     .background {
-         margin: 0;
-     }
-}
-
-
-
-
-@media (max-width: 415px) {
-    .work__list:after  {
-        height: 62.5%;
-    }
-
-    .certification_img {
-        margin: 8px;
-    }
-
-    .settings-box-element_dark {
-        top: 10px;
-        left: 10px;
-    }
-
-}
-
 .work,.core,.tools,.certification,.about,.background {
     width: 50%;
     padding: 30px 50px;
     display: none;
-    height: 58vh;
+    height: 100vh;
 }
 
 input[name=tab] + label {
@@ -467,7 +373,7 @@ input[name=tab] + label {
     padding: 10px;
     background:  var(--bg-header);
     color: #ffffff;
-    width: 15%;
+    width: 14.7%;
     transition: all .5s ease;
     border-radius: 0px 0px 10px 10px;
     cursor: pointer;
@@ -484,13 +390,13 @@ input[id="tab-6"]:checked ~ .content .tools{
 }
 
 input[name=tab]:checked + label {
-  transform: translateY(-7px);
+    transform: translateY(-7px);
 }
 
 
 
 input[name=tab] + label:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 
 }
 
@@ -581,5 +487,130 @@ input[type="radio"] {
     right: 10px;
 }
 
+
+
+
+
+/*media*/
+
+@media (max-width: 1280px) {
+    input[name=tab] + label {
+        width: 14%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .layout-buttons {
+        width: 80px;
+    }
+
+    input[name=tab] + label {
+
+        width: 13%;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 640px ) {
+    .container {
+        width: 100%;
+    }
+    .header__title {
+        margin-right: 0;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .work_and_background-wrapper {
+        grid-template-columns: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_and_certification-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .core_and_tools-wrapper {
+        flex-direction: column;
+    }
+
+    .about_and_certification {
+        padding: 10px 0 23px 0;
+    }
+
+    .about__title {
+        margin-top: 30px;
+
+    }
+    .about__title__p {
+         font-size: 16px;
+    }
+
+     .background {
+         margin: 0;
+     }
+
+    input[name=tab] + label {
+        font-size: 13px;
+
+        width: 12.5%;
+    }
+}
+
+
+
+
+@media (max-width: 415px) {
+    .work__list:after  {
+        height: 60.5%;
+    }
+
+    ul:after {
+        height: 77%;
+    }
+
+    .certification_img {
+        margin: 8px;
+    }
+
+    .settings-box-element_dark {
+        top: 10px;
+        left: 10px;
+    }
+    .header__img {
+    }
+
+    input[name=tab] + label {
+        font-size: 8px;
+
+        width: 10%;
+    }
+
+}
 
 
